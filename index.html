@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Shankar</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="js/canvasjs.min.js"></script>
+      <script src="js/multirange.js"></script>
+      <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/multirange.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+   </head>
+   <body>
+      <header >
+         <ul id="header">
+            <li><a href="#home" id="a">HousingMan</a></li>
+            <li><a href="#news" id="a"><i class="glyphicon glyphicon-user" style="font-size: 140%;"></i></a></li>
+            <li><a href="#contact" id="a">Data</a></li>
+            <li id="img"  ><a class="active" href="#about" ><img src="images/men.jpg" width="28%" ></a></li>
+            <li style="float:right"><a class="active" href="#about" id="a"><i class="fa fa-address-card" style="font-size:22px"></i></a></li>
+            <li style="float:right"><a class="active" href="#about" id="a"><i class="fa fa-bell" style="font-size:22px"></i></a></li>
+         </ul>
+         <nav class="navbar navbar-default" >
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <a class="navbar-brand" href="#" style="color: white;">  <span class="glyphicon glyphicon-map-marker"></span>&nbsp;Bangalore&nbsp;<span class="glyphicon glyphicon-chevron-down"></span></a>
+               </div>
+               <ul class="nav navbar-nav" style="">
+                  <li class="active1"><a href="#" >OVERVIEW</a></li>
+                  <li><a href="#">PROJECTS</a></li>
+                  <li><a href="#">BUILDERS</a></li>
+                  <li><a href="#">MASTER</a></li>
+                  <li><a href="#">TEAM</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+      <nav class="container-fluid">
+         <h1>HELLO ANAND</h1>
+         <div class="row">
+            <div class="col-md-5">
+               <div style="" id="box">
+                  <h1>check in/checck out</h1>
+                  <hr>
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4>check in</h4>
+                        <h4>10.30</h4>
+                     </div>
+                     <div class="col-md-4">
+                        <h4>check out</h4>
+                        <h4>10.30</h4>
+                     </div>
+                     <div class="col-md-4">
+                        <h4>Total time</h4>
+                        <h4>10.30</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+               <div id="box">
+                  <h1>Today tasks</h1>
+                  <hr>
+                  <div class="row">
+                     <div class="col-md-6">
+                        <h4>follow up</h4>
+                        <h4>10</h4>
+                     </div>
+                     <div class="col-md-6">
+                        <h4>new calls</h4>
+                        <h4>15</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div  id="box">
+                  <h1>Recently Added</h1>
+                  <hr>
+                  <div class="row">
+                     <div class="col-md-4">
+                        <h4>Projects</h4>
+                        <h4>10</h4>
+                     </div>
+                     <div class="col-md-4">
+                        <h4>Builders</h4>
+                        <h4>30</h4>
+                     </div>
+                     <div class="col-md-4">
+                        <h4>Locations</h4>
+                        <h4>15</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+         <div style="" id="task">
+            <h2 style="" id="user"><i class="glyphicon glyphicon-user" style="font-size: 80%;"></i>&nbsp;Your Tasks</h2>
+            <button style=""  class="btn btn-warning">View All</button>
+            <br>
+            <br>
+            <hr>
+            <div class="row">
+               <div class="col-md-2">
+                  <div class="panel panel-default" >
+                     <div class="panel-heading" style="" id="pheading">
+                        <h4>   <span class="glyphicon glyphicon-earphone" style="font-size: 80%;"></span>&nbsp;Follow Up<span style="float: right;">5.30pm</span></h4>
+                     </div>
+                     <div class="panel-body" style="">
+                        <h3>Ashwin Kumar</h3>
+                        <p>Brigade group</p>
+                        <p id="clr">contact</p>
+                        <p>shankarssuvarnakar@</p>
+                        <p>7204123342</p>
+                        <hr>
+                        <p id="clr">city</p>
+                        <p>banglore</p>
+                        <hr>
+                        <p id="clr">comments</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="panel panel-default">
+                     <div class="panel-heading" style="" id="pheading1">
+                        <h4><span class="glyphicon glyphicon-map-marker" style="font-size: 80%;"></span>&nbsp;Site visit<span style="float: right;">5.30pm</span></h4>
+                     </div>
+                     <div class="panel-body" style="">
+                        <h3>Ashwin Kumar</h3>
+                        <p>Brigade group</p>
+                        <p id="clr">contact</p>
+                        <p>shankarssuvarnakar@</p>
+                        <p>7204123342</p>
+                        <hr>
+                        <p id="clr">city</p>
+                        <p>banglore</p>
+                        <hr>
+                        <p id="clr">comments</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="panel panel-default">
+                     <div class="panel-heading" id="pheading1">
+                        <h4><span class="glyphicon glyphicon-map-marker" style="font-size: 80%;"></span>&nbsp;Site visit<span style="float: right;">5.30pm</span></h4>
+                     </div>
+                     <div class="panel-body" >
+                        <h3>Ashwin Kumar</h3>
+                        <p>Brigade group</p>
+                        <p id="clr">contact</p>
+                        <p>shankarssuvarnakar@</p>
+                        <p>7204123342</p>
+                        <hr>
+                        <p id="clr">city</p>
+                        <p>banglore</p>
+                        <hr>
+                        <p id="clr">comments</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="panel panel-default">
+                     <div class="panel-heading" id="pheading1">
+                        <h4><span class="glyphicon glyphicon-map-marker" style="font-size: 80%;"></span>&nbsp;Site visit<span style="float: right;">5.30pm</span></h4>
+                     </div>
+                     <div class="panel-body" >
+                        <h3>Ashwin Kumar</h3>
+                        <p>Brigade group</p>
+                        <p id="clr">contact</p>
+                        <p>shankarssuvarnakar@</p>
+                        <p>7204123342</p>
+                        <hr>
+                        <p id="clr">city</p>
+                        <p>banglore</p>
+                        <hr>
+                        <p id="clr">comments</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="panel panel-default">
+                     <div class="panel-heading" id="pheading1">
+                        <h4><span class="glyphicon glyphicon-map-marker" style="font-size: 80%;"></span>&nbsp;Site visit<span style="float: right;">5.30pm</span></h4>
+                     </div>
+                     <div class="panel-body" >
+                        <h3>Ashwin Kumar</h3>
+                        <p>Brigade group</p>
+                        <p id="clr">contact</p>
+                        <p>shankarssuvarnakar@</p>
+                        <p>7204123342</p>
+                        <hr>
+                        <p id="clr">city</p>
+                        <p>banglore</p>
+                        <hr>
+                        <p id="clr">comments</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-2">
+                  <div class="panel panel-default">
+                     <div class="panel-heading" id="pheading1">
+                        <h4><span class="glyphicon glyphicon-map-marker" style="font-size: 80%;"></span>&nbsp;Site visit<span style="float: right;">5.30pm</span></h4>
+                     </div>
+                     <div class="panel-body" >
+                        <h3>Ashwin Kumar</h3>
+                        <p>Brigade group</p>
+                        <p id="clr">contact</p>
+                        <p>shankarssuvarnakar@</p>
+                        <p>7204123342</p>
+                        <hr>
+                        <p id="clr">city</p>
+                        <p>banglore</p>
+                        <hr>
+                        <p id="clr">comments</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <br>
+         <br>
+         <h1 style="display: inline;">Projects made live overview</h1>
+         <div style="display: inline;float: right;">
+            <span  class="btn btn-default" >Last week</span>
+           <span type="submit" class="btn btn-default" >Month</span>
+           <span  type="submit" class="btn btn-default" >Year</span>
+            <span type="submit" class="btn btn-default btn1" >This week</span>
+            <span  type="submit" class="btn btn-default" >Projet Made live &nbsp;<span class="glyphicon glyphicon-chevron-down"></span>         </div>
+         <br>
+         <br>
+         <div id="chartContainer1" ></div>
+         <br>
+         <br>
+         <div  id="slider">
+            <span style="float: left;font-size: 160%;">Price range</span>
+            <span style="float: right;font-size: 160%;">Increment By 2 Lacs</span>
+            <br>
+            <br>
+             <div data-role="rangeslider">
+                <label for="range-1a">Rangeslider:</label>
+                <input name="range-1a" id="range-1a" min="0" max="100" value="0" type="range">
+                <label for="range-1b">Rangeslider:</label>
+                <input name="range-1b" id="range-1b" min="0" max="100" value="100" type="range">
+            </div>
+         </div>
+         <br>
+         <div id="googleMap1" style="height:400px;width:100%;"></div>
+         <script>
+            function myMap1() {
+            var myCenter = new google.maps.LatLng(12.9451477, 77.5798595);
+            var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+            var map = new google.maps.Map(document.getElementById("googleMap1"),mapProp);
+            var marker = new google.maps.Marker({position:myCenter,
+            title:"HousingMan"});
+            marker.setMap(map);
+            }
+         </script>
+      </nav>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_DG2wc5lHCXj1l03qvIDqKlJv5kPQzA8&callback=myMap1"></script> 
+      <script type="text/javascript">
+         window.onload = function () {
+               var chart = new CanvasJS.Chart("chartContainer1", {
+                 theme: "theme2",
+                 title: {
+                   text: ""
+                 },
+                 animationEnabled: true,
+                 axisX: {
+                   valueFormatString: "MMM",
+                   interval: 1,
+                   intervalType: "month"
+         
+                 },
+                 axisY: {
+                   includeZero: false
+         
+                 },
+                 data: [{
+                   type: "line",
+                   //lineThickness: 3,
+                   dataPoints: [
+                   { x: new Date(2012, 00, 1), y: 450 },
+                   { x: new Date(2012, 01, 1), y: 414 },
+                   { x: new Date(2012, 02, 1), y: 520, indexLabel: "highest", markerColor: "red", markerType: "triangle" },
+                   { x: new Date(2012, 03, 1), y: 460 },
+                   { x: new Date(2012, 04, 1), y: 450 },
+                   { x: new Date(2012, 05, 1), y: 500 },
+                   { x: new Date(2012, 06, 1), y: 480 },
+                   { x: new Date(2012, 07, 1), y: 480 },
+                   { x: new Date(2012, 08, 1), y: 410, indexLabel: "lowest", markerColor: "DarkSlateGrey", markerType: "cross" },
+                   { x: new Date(2012, 09, 1), y: 500 },
+                   { x: new Date(2012, 10, 1), y: 480 },
+                   { x: new Date(2012, 11, 1), y: 510 }
+                   ]
+                 }
+                 ]
+               });
+                 chart.render();
+               }
+      </script>
+   </body>
+</html>
